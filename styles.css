@@ -1,3 +1,61 @@
-h4 {
+body {
+    color: #2C2C2C;
+ }
+
+div {
+    padding: 2% 4%;
+  }
+
+h1 {
+    font-weight: 900;
+  }
+h2 {
+    font-weight: 800;
+  }
+  
+h5 {
+    font-weight: 200;
+    font-style: italic;
     color: #778899;
   }
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 1%;
+  color: #2C2C2C;
+}
+.logo-n {
+  width: 32px;
+}
+hr.solid {
+  border-top: 1px solid #b1b1b1;;
+}
+
+/* .pictures {
+  width: 100%;
+  z-index: -1;
+} */
+
+/* .hyperlinks:link, .hyperlinks:visited {
+  color: rgb(254, 254, 254);
+  background-color: #2C2C2C ;
+  padding: 0px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.hyperlinks:hover {
+  color: rgb(254, 254, 254);
+  background-color: #b63604 ;
+  padding: 0px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cta {
+  color: #ffffff;
+  background-color: #000000 ;
+  padding: 8px;
+} */
