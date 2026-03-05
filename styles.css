@@ -1,10 +1,27 @@
 body {
     color: #2C2C2C;
+    font-size: 1rem; /* 基本サイズ */
+    padding: 10px;   /* 端末による余白 */
+    margin: 0;
+  　box-sizing: border-box;
  }
+
+.banner {
+  background-color: #f0f8ff;
+  padding: 20px;
+  text-align: center;
+  border-left: 4px solid #003366;
+  margin-top: 20px;    /* 上余白 */
+  margin-bottom: 40px; /* 下余白 */
+  box-sizing: border-box;
+}
 
 div {
     padding: 2% 4%;
+    max-width: 800px;  /* 大画面でも横幅制限 */
+    margin: 0 auto;    /* 中央寄せ */
   }
+
 
 h1 {
     font-weight: 900;
@@ -30,6 +47,25 @@ footer {
 }
 hr.solid {
   border-top: 1px solid #b1b1b1;;
+}
+
+/* ----------------------
+   モバイル向け調整
+---------------------- */
+@media (max-width: 600px) {
+  .banner {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+  .content {
+    padding: 0 5px;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 0.95rem;
+  }
 }
 
 /* .pictures {
