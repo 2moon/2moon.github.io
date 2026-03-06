@@ -1,10 +1,49 @@
 body {
-    color: #2C2C2C;
-    font-size: 1rem; /* 基本サイズ */
-    padding: 10px;   /* 端末による余白 */
-    margin: 0;
-  　box-sizing: border-box;
- }
+  color: #2C2C2C;
+  font-family: sans-serif;
+  line-height: 1.6;
+  font-size: 1.1rem; /* 基本サイズを少し大きめに */
+  padding: 10px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.2rem; /* PC用 */
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+p, li {
+  font-size: 1rem; /* 読みやすく */
+}
+
+/* スマホ用 */
+@media (max-width: 600px) {
+  body {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  p, li {
+    font-size: 0.95rem;
+  }
+  .banner {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+  .content {
+    padding: 0 5px;
+  }
+}
+
 
 .banner {
   background-color: #f0f8ff;
@@ -23,16 +62,8 @@ div {
   }
 
 
-h1 {
-    font-weight: 900;
-  }
-h2 {
-    font-weight: 800;
-  }
-  
 h5 {
     font-weight: 200;
-    font-style: italic;
     color: #778899;
   }
 
@@ -47,25 +78,6 @@ footer {
 }
 hr.solid {
   border-top: 1px solid #b1b1b1;;
-}
-
-/* ----------------------
-   モバイル向け調整
----------------------- */
-@media (max-width: 600px) {
-  .banner {
-    padding: 10px;
-    font-size: 0.9rem;
-  }
-  .content {
-    padding: 0 5px;
-  }
-  h1 {
-    font-size: 1.5rem;
-  }
-  p {
-    font-size: 0.95rem;
-  }
 }
 
 /* .pictures {
