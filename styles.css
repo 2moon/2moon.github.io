@@ -5,7 +5,7 @@ body {
   color: #2C2C2C;
   font-family: sans-serif;
   line-height: 1.8;      /* 高齢者向けに行間広め */
-  font-size: 1.25rem;    /* 全体を大きめに */
+  font-size: 2rem;    /* 全体を大きめに */
   padding: 10px;
   margin: 0;
 }
@@ -20,7 +20,7 @@ div {
    見出しスタイル
 ========================= */
 h1 {
-  font-size: 2.8rem;
+  font-size: 3rem;
   margin-bottom: 25px;
   font-weight: 700;
 }
@@ -40,14 +40,15 @@ h3 {
 h5 {
   font-weight: 200;
   color: #778899;
+  margin: 10px;
 }
 
 /* =========================
    リスト・段落スタイル
 ========================= */
 ul, li, p {
-  font-size: 1.25rem;    /* liも含め大きめ */
-  line-height: 1.8;
+  font-size: 2rem;    /* liも含め大きめ */
+  line-height: 2;
   margin-bottom: 10px;
 }
 
@@ -57,7 +58,7 @@ ul, li, p {
 .banner {
   background-color: #f0f8ff;
   padding: 20px;
-  text-align: center;
+  text-align: left;
   border-left: 4px solid #003366;
   margin-top: 20px;
   margin-bottom: 40px;
