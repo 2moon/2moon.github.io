@@ -74,21 +74,6 @@ section a {
 section a:last-child {
   margin-right: 0;
 }
-
-/* モバイル（幅600px以下） */
-@media (max-width: 600px) {
-  section a {
-    display: block;        /* 縦並び */
-    margin-right: 0;       /* 横スペース解除 */
-    margin-bottom: 10px;   /* 上下スペース確保 */
-  }
-  
-  /* 最後のリンクの下余白を少し小さくする場合 */
-  section a:last-child {
-    margin-bottom: 0;
-  }
-}
-
 /* =========================
    バナー
 ========================= */
@@ -154,11 +139,21 @@ hr.solid {
     padding: 0 5px;
   }
 
+  section a {
+    display: block;        /* 縦並び */
+    margin-right: 0;       /* 横スペース解除 */
+    margin-bottom: 10px;   /* 上下スペース確保 */
+  }
+  
+  /* 最後のリンクの下余白を少し小さくする場合 */
+  section a:last-child {
+    margin-bottom: 0;
+  }
+
   img, .responsive-image {
     margin: 15px auto;
   }
 }
-
 /* =========================
    コメントアウト済みリンク・CTA等はそのまま保持
 ========================= */
