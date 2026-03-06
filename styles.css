@@ -1,86 +1,86 @@
+/* =========================
+   基本スタイル
+========================= */
 body {
   color: #2C2C2C;
   font-family: sans-serif;
-  line-height: 1.6;
-  font-size: 1.1rem; /* 基本サイズを少し大きめに */
+  line-height: 1.8;      /* 高齢者向けに行間広め */
+  font-size: 1.25rem;    /* 全体を大きめに */
   padding: 10px;
   margin: 0;
 }
 
+div {
+  padding: 2% 4%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* =========================
+   見出しスタイル
+========================= */
 h1 {
-  font-size: 2.2rem; /* PC用 */
-  margin-bottom: 20px;
-  font-weight:700;
+  font-size: 2.8rem;
+  margin-bottom: 25px;
+  font-weight: 700;
 }
 
 h2 {
-  font-size: 1.8rem;
-  margin-bottom: 15px;
-  font-weight: 600;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  font-weight: 700;
 }
 
 h3 {
-  font-size: 1.4rem;
-  margin-bottom: 15px;
-  font-weight: 500;
+  font-size: 1.8rem;
+  margin-bottom: 18px;
+  font-weight: 700;
 }
 
-p, li, ul {
-  font-size: 1.1rem; /* 読みやすく */
-  line-height: 1.6;  /* 行間も確保 */
+h5 {
+  font-weight: 200;
+  color: #778899;
 }
 
-@media (max-width: 600px) {
-  ul, li {
-    font-size: 1rem; /* スマホ用に少し縮小 */
-  }
-  .banner {
-    padding: 10px;
-    font-size: 0.9rem;
-  }
-  .content {
-    padding: 0 5px;
-  }
+/* =========================
+   リスト・段落スタイル
+========================= */
+ul, li, p {
+  font-size: 1.25rem;    /* liも含め大きめ */
+  line-height: 1.8;
+  margin-bottom: 10px;
 }
 
-/* スマホ用 */
-@media (max-width: 600px) {
-  body {
-    font-size: 1rem;
-  }
-  h1 {
-    font-size: 1.5rem;
-    font-weight:700;
-  }
-  h2 {
-    font-size: 1.3rem;
-    font-weight:600;
-  }
-
-
-}
-
+/* =========================
+   バナー
+========================= */
 .banner {
   background-color: #f0f8ff;
   padding: 20px;
   text-align: center;
   border-left: 4px solid #003366;
-  margin-top: 20px;    /* 上余白 */
-  margin-bottom: 40px; /* 下余白 */
+  margin-top: 20px;
+  margin-bottom: 40px;
   box-sizing: border-box;
 }
 
-div {
-    padding: 2% 4%;
-    max-width: 800px;  /* 大画面でも横幅制限 */
-    margin: 0 auto;    /* 中央寄せ */
-  }
+/* =========================
+   画像レスポンシブ
+========================= */
+img, .responsive-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+}
 
-
-h5 {
-    font-weight: 200;
-    color: #778899;
-  }
+/* =========================
+   ロゴ・フッター
+========================= */
+.logo-n {
+  width: 32px;
+}
 
 footer {
   width: 100%;
@@ -88,13 +88,41 @@ footer {
   padding: 1%;
   color: #2C2C2C;
 }
-.logo-n {
-  width: 32px;
-}
+
 hr.solid {
-  border-top: 1px solid #b1b1b1;;
+  border-top: 1px solid #b1b1b1;
 }
 
+/* =========================
+   モバイル対応
+========================= */
+@media (max-width: 600px) {
+  body, section, ul, li, p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  h1 { font-size: 2rem; font-weight:700; }
+  h2 { font-size: 1.7rem; font-weight:700; }
+  h3 { font-size: 1.4rem; font-weight:700; }
+
+  .banner {
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .content {
+    padding: 0 5px;
+  }
+
+  img, .responsive-image {
+    margin: 15px auto;
+  }
+}
+
+/* =========================
+   コメントアウト済みリンク・CTA等はそのまま保持
+========================= */
 /* .pictures {
   width: 100%;
   z-index: -1;
