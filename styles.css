@@ -38,8 +38,8 @@ h3 {
 }
 
 h5 {
-  font-weight: 500;
-  color: #0445af;
+  font-weight: 800;
+  color: #ff7d21;
   margin-bottom: 10px;
 }
 
@@ -53,13 +53,13 @@ ul, li, p {
 }
 /* リンクの色と太字指定 */
 a {
-  color: #1EAEDB;       /* 通常のリンク色 */
+  color: #4a86e7;       /* 通常のリンク色 */
   font-weight: 700;      /* 太字 */
   text-decoration: none; /* 下線を消す場合 */
 }
 
 a:hover, a:focus {
-  color: #0d8bbd;       /* ホバー時の色を少し濃く */
+  color: #3a6fcc;       /* ホバー時の色を少し濃く */
   text-decoration: underline; /* ホバー時に下線を表示 */
 }
 /* =========================
