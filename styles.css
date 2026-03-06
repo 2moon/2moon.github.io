@@ -10,19 +10,19 @@ body {
 h1 {
   font-size: 2.2rem; /* PC用 */
   margin-bottom: 20px;
-  font-weight: bold;
+  font-weight:700;
 }
 
 h2 {
   font-size: 1.8rem;
   margin-bottom: 15px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 h3 {
   font-size: 1.4rem;
   margin-bottom: 15px;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 p, li, ul {
@@ -50,9 +50,11 @@ p, li, ul {
   }
   h1 {
     font-size: 1.5rem;
+    font-weight:700;
   }
   h2 {
     font-size: 1.3rem;
+    font-weight:600;
   }
 
 
