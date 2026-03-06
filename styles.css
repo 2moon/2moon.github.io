@@ -51,7 +51,17 @@ ul, li, p {
   line-height: 2;
   margin-bottom: 10px;
 }
+/* リンクの色と太字指定 */
+a {
+  color: #1EAEDB;       /* 通常のリンク色 */
+  font-weight: 700;      /* 太字 */
+  text-decoration: none; /* 下線を消す場合 */
+}
 
+a:hover, a:focus {
+  color: #0d8bbd;       /* ホバー時の色を少し濃く */
+  text-decoration: underline; /* ホバー時に下線を表示 */
+}
 /* =========================
    バナー
 ========================= */
