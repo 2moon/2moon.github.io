@@ -23,6 +23,7 @@ h1 {
   font-size: 3rem;
   margin-bottom: 25px;
   font-weight: 700;
+  font-style: italic;
 }
 
 h2 {
@@ -38,9 +39,10 @@ h3 {
 }
 
 h5 {
-  font-weight: 800;
+  font-weight: 400;
   color: #ff7d21;
   margin-bottom: 10px;
+  font-style: italic;
 }
 
 /* =========================
@@ -51,16 +53,15 @@ ul, li, p {
   line-height: 2;
   margin-bottom: 10px;
 }
-/* リンクの色と太字指定 */
+/* リンク*/
 a {
-  color: #4a86e7;       /* 通常のリンク色 */
-  font-weight: 700;      /* 太字 */
-  text-decoration: none; /* 下線を消す場合 */
+    color: #003366;
+    font-weight: 500;
+    text-decoration: underline dashed;
 }
-
 a:hover, a:focus {
-  color: #3a6fcc;       /* ホバー時の色を少し濃く */
-  text-decoration: underline; /* ホバー時に下線を表示 */
+  color: #001f4d;                   /* ホバー時はさらに濃い青 */
+  text-decoration: underline dotted; /* 点線下線は維持 */
 }
 /* =========================
    バナー
