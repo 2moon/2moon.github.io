@@ -100,7 +100,7 @@ hr.solid {
 ========================= */
 @media (max-width: 600px) {
   body, section, ul, li, p {
-    font-size: 1.1rem;
+    font-size: 1.8rem;
     line-height: 1.6;
   }
   
