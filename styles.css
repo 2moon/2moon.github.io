@@ -63,6 +63,32 @@ a:hover, a:focus {
   color: #001f4d;                   /* ホバー時はさらに濃い青 */
   text-decoration: underline dotted; /* 点線下線は維持 */
 }
+/* 通常表示（PC・タブレットなど） */
+section a {
+  display: inline-block;   /* 横並び */
+  margin-right: 20px;      /* 横スペース */
+  margin-bottom: 0;        /* 下余白は不要 */
+}
+
+/* 最後のリンクの右マージンを消す */
+section a:last-child {
+  margin-right: 0;
+}
+
+/* モバイル（幅600px以下） */
+@media (max-width: 600px) {
+  section a {
+    display: block;        /* 縦並び */
+    margin-right: 0;       /* 横スペース解除 */
+    margin-bottom: 10px;   /* 上下スペース確保 */
+  }
+  
+  /* 最後のリンクの下余白を少し小さくする場合 */
+  section a:last-child {
+    margin-bottom: 0;
+  }
+}
+
 /* =========================
    バナー
 ========================= */
