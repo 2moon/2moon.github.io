@@ -17,8 +17,22 @@ h2 {
   margin-bottom: 15px;
 }
 
-p, li {
-  font-size: 1rem; /* 読みやすく */
+p, li, ul {
+  font-size: 1.1rem; /* 読みやすく */
+  line-height: 1.6;  /* 行間も確保 */
+}
+
+@media (max-width: 600px) {
+  ul, li {
+    font-size: 1rem; /* スマホ用に少し縮小 */
+  }
+  .banner {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+  .content {
+    padding: 0 5px;
+  }
 }
 
 /* スマホ用 */
@@ -32,18 +46,9 @@ p, li {
   h2 {
     font-size: 1.3rem;
   }
-  p, li {
-    font-size: 0.95rem;
-  }
-  .banner {
-    padding: 10px;
-    font-size: 0.9rem;
-  }
-  .content {
-    padding: 0 5px;
-  }
-}
 
+
+}
 
 .banner {
   background-color: #f0f8ff;
