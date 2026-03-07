@@ -6,6 +6,25 @@ body {
   margin:0;
 }
 
+.lang-nav{
+position:fixed;
+top:24px;
+right:40px;
+font-size:13px;
+letter-spacing:0.05em;
+opacity:0.7;
+}
+
+.lang-nav a{
+margin-left:14px;
+text-decoration:none;
+color:inherit;
+}
+
+.lang-nav a:hover{
+opacity:1;
+}
+
 section{
   margin-bottom:40px;
 }
@@ -154,4 +173,12 @@ display:block;
 margin-bottom:10px;
 }
 
+}
+
+@media (max-width:600px){
+.lang-nav{
+right:20px;
+top:15px;
+font-size:12px;
+}
 }
