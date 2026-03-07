@@ -6,6 +6,11 @@ body {
   margin:0;
 }
 
+::selection{
+background:#e6f4ff;
+color:#000;
+}
+
 .lang-nav{
 position:fixed;
 top:24px;
