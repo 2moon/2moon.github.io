@@ -18,7 +18,7 @@ section{
 
 .name-outline {
   color: transparent;
-  -webkit-text-stroke: 1.5px #F18F01;
+  -webkit-text-stroke: 1.5px #dda57f;
   font-style: italic;
   font-weight: 700;
   letter-spacing: 1px;
@@ -42,13 +42,6 @@ h2{
   font-weight:700;
   margin-top:40px;
   margin-bottom:12px;
-}
-
-h5{
-  color:#dda57f;
-  font-style:italic;
-  font-weight:600;
-  margin-bottom:10px;
 }
 
 /* text */
