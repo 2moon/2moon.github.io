@@ -1,186 +1,140 @@
-/* =========================
-   基本スタイル
-========================= */
 body {
   color: #2C2C2C;
   font-family: sans-serif;
-  line-height: 1.8;      /* 高齢者向けに行間広め */
-  font-size: 2rem;    /* 全体を大きめに */
-  padding: 10px;
-  margin: 0;
+  line-height: 1.75;
+  font-size: 1.9rem;
+  margin:0;
 }
 
-div {
-  padding: 2% 4%;
-  max-width: 800px;
-  margin: 0 auto;
+.wrapper{
+  max-width:680px;
+  margin:auto;
+  padding:40px 5%;
 }
 
-/* =========================
-   見出しスタイル
-========================= */
-h1 {
-  font-size: 3rem;
-  margin-bottom: 25px;
-  font-weight: 700;
-  font-style: italic;
+/* headings */
+
+h1{
+  font-size:3rem;
+  font-style:italic;
+  font-weight:700;
+  margin-bottom:25px;
 }
 
-h2 {
-  font-size: 2.2rem;
-  margin-bottom: 20px;
-  font-weight: 700;
+h2{
+  font-size:2.2rem;
+  font-weight:700;
+  margin-top:40px;
+  margin-bottom:12px;
 }
 
-h3 {
-  font-size: 1.8rem;
-  margin-bottom: 18px;
-  font-weight: 700;
+h5{
+  color:#dda57f;
+  font-style:italic;
+  font-weight:600;
+  margin-bottom:10px;
 }
 
-h5 {
-  font-weight: 600;
-  color: #dda57f;
-  margin-bottom: 10px;
-  font-style: italic;
+/* text */
+
+p, li{
+  font-size:1.9rem;
+  line-height:1.9;
 }
 
-/* =========================
-   リスト・段落スタイル
-========================= */
-ul, li, p {
-  font-size: 2rem;    /* liも含め大きめ */
-  line-height: 2;
-  margin-bottom: 10px;
-}
-/* リンク*/
-a {
-    color: #003366;
-    font-weight: 500;
-    text-decoration: underline dashed;
-}
-a:hover, a:focus {
-  color: #001f4d;                   /* ホバー時はさらに濃い青 */
-  text-decoration: underline dotted; /* 点線下線は維持 */
-}
-/* 通常表示（PC・タブレットなど） */
-section a {
-  display: inline-block;   /* 横並び */
-  margin-right: 20px;      /* 横スペース */
-  margin-bottom: 0;        /* 下余白は不要 */
+ul{
+  padding-left:20px;
 }
 
-/* 最後のリンクの右マージンを消す */
-section a:last-child {
-  margin-right: 0;
-}
-/* =========================
-   バナー
-========================= */
-.banner {
-  background-color: #eaf3ff;
-  padding: 20px;
-  text-align: left;
-  font-size: 1.8rem;
-  border-left: 4px solid #003366;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  box-sizing: border-box;
+li{
+  margin-bottom:8px;
 }
 
-/* =========================
-   画像レスポンシブ
-========================= */
-img, .responsive-image {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 20px auto;
-  border-radius: 8px;
+
+/* banner */
+
+.banner{
+  background:#eaf3ff;
+  border-left:4px solid #003366;
+  padding:24px;
+  margin-bottom:40px;
 }
 
-/* =========================
-   ロゴ・フッター
-========================= */
-.logo-n {
-  width: 32px;
+.quote{
+  font-style:italic;
+  font-size:1.8rem;
 }
 
-footer {
-  width: 100%;
-  text-align: center;
-  padding: 1%;
-  color: #2C2C2C;
+.quote-author{
+  font-weight:600;
+  margin-bottom:10px;
 }
 
-hr.solid {
-  border-top: 1px solid #b1b1b1;
+
+/* links */
+
+a{
+  color:#003366;
+  text-decoration:underline dashed;
 }
 
-/* =========================
-   モバイル対応
-========================= */
-@media (max-width: 600px) {
-  body, section, ul, li, p {
-    font-size: 1.8rem;
-    line-height: 1.6;
-  }
-  
-  h1 { font-size: 2rem; font-weight:700; }
-  h2 { font-size: 1.7rem; font-weight:700; }
-  h3 { font-size: 1.4rem; font-weight:700; }
-
-  .banner {
-    padding: 10px;
-    font-size: 1rem;
-  }
-
-  .content {
-    padding: 0 5px;
-  }
-
-  section a {
-    display: block;        /* 縦並び */
-    margin-right: 0;       /* 横スペース解除 */
-    margin-bottom: 10px;   /* 上下スペース確保 */
-  }
-  
-  /* 最後のリンクの下余白を少し小さくする場合 */
-  section a:last-child {
-    margin-bottom: 0;
-  }
-
-  img, .responsive-image {
-    margin: 15px auto;
-  }
-}
-/* =========================
-   コメントアウト済みリンク・CTA等はそのまま保持
-========================= */
-/* .pictures {
-  width: 100%;
-  z-index: -1;
-} */
-
-/* .hyperlinks:link, .hyperlinks:visited {
-  color: rgb(254, 254, 254);
-  background-color: #2C2C2C ;
-  padding: 0px 4px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-.hyperlinks:hover {
-  color: rgb(254, 254, 254);
-  background-color: #b63604 ;
-  padding: 0px 4px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+a:hover{
+  text-decoration:underline dotted;
+  color:#001f4d;
 }
 
-.cta {
-  color: #ffffff;
-  background-color: #000000 ;
-  padding: 8px;
-} */
+
+/* contact links */
+
+section a{
+  display:inline-block;
+  margin-right:20px;
+}
+
+section a:last-child{
+  margin-right:0;
+}
+
+
+/* footer */
+
+footer{
+  text-align:center;
+  margin-top:40px;
+}
+
+.logo-n{
+  width:32px;
+}
+
+
+/* divider */
+
+hr.solid{
+  border-top:1px solid #b1b1b1;
+  margin:40px 0;
+}
+
+
+/* mobile */
+
+@media (max-width:600px){
+
+body{
+font-size:1.7rem;
+}
+
+h1{
+font-size:2.1rem;
+}
+
+h2{
+font-size:1.7rem;
+}
+
+section a{
+display:block;
+margin-bottom:10px;
+}
+
+}
