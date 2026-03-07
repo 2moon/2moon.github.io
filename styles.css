@@ -25,6 +25,17 @@ color:inherit;
 opacity:1;
 }
 
+/* イカリマークの傾き */
+.lang-nav a:first-child{
+display:inline-block;
+transition:transform 0.25s ease;
+}
+
+.lang-nav a:first-child:hover{
+transform:translateY(-3px) rotate(-5deg);
+}
+
+
 section{
   margin-bottom:40px;
 }
