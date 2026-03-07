@@ -1,15 +1,31 @@
 body {
   color: #2C2C2C;
   font-family: sans-serif;
-  line-height: 1.75;
+  line-height: 1.7;
   font-size: 1.9rem;
   margin:0;
+}
+
+section{
+  margin-bottom:40px;
 }
 
 .wrapper{
   max-width:680px;
   margin:auto;
-  padding:40px 5%;
+  padding:60px 5%;
+}
+
+.name-outline {
+  color: transparent;
+  -webkit-text-stroke: 1.5px #F18F01;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.tagline {
+  color: #555;
 }
 
 /* headings */
@@ -69,16 +85,6 @@ li{
   font-weight:600;
   margin-bottom:10px;
 }
-
-
-.name-outline {
-  color: transparent;
-  -webkit-text-stroke: 1.5px #F18F01;
-  font-style: italic;
-  font-weight: 700;
-  letter-spacing: 1px;
-}
-
 
 /* links */
 
