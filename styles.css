@@ -11,6 +11,13 @@ background:#e6f4ff;
 color:#000;
 }
 
+.tagline{
+font-family:"Cormorant Garamond", serif;
+font-style:italic;
+font-weight:700;
+letter-spacing:0.03em;
+}
+
 .lang-nav{
 position:fixed;
 top:24px;
@@ -61,11 +68,10 @@ section{
 }
 
 .tagline{
-  font-family:fangsong;
-  font-size: 3.2rem;
-  font-weight: 700;
-  font-style: italic;
-  letter-spacing: 8%;
+font-family:"Cormorant Garamond", serif;
+font-style:italic;
+font-weight:700;
+letter-spacing:0.03em;
 }
 
 /* headings */
