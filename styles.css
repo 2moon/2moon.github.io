@@ -71,6 +71,15 @@ li{
 }
 
 
+.name-outline {
+  color: transparent;
+  -webkit-text-stroke: 1.5px #F18F01;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+
 /* links */
 
 a{
