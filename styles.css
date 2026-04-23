@@ -91,7 +91,7 @@ letter-spacing:0.03em;
 .hero {
   position: relative;
   width: 100vw;
-  height: 80vh; /* adjust if you want shorter/taller */
+  height: 85vh;
   overflow: hidden;
 }
 
