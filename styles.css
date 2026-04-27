@@ -94,6 +94,8 @@ letter-spacing:0.03em;
   width: 100vw;
   height: 72vh;
   overflow: hidden;
+  min-height: 480px;
+  max-height: 800px;
 }
 
 .hero-video {
