@@ -30,17 +30,22 @@ font-size:2.8em;
 
 
 .lang-nav a {
-  color: white;
-  margin-left: 10px;
-  text-decoration: none;
-  letter-spacing: 0.05em;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-style: italic;
-  font-size: 0.95rem;
+
+  font-size: 1.15rem;
   letter-spacing: 0.05em;
-  opacity: 0.75;
+
+  color: white;
+  opacity: 0.8;
+  text-decoration: none;
+  margin-left: 16px;
 
   transition: opacity 0.3s ease;
+}
+
+.lang-nav a:hover {
+  opacity: 1;
 }
 
 .lang-nav a:hover {
