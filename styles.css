@@ -92,10 +92,10 @@ letter-spacing:0.03em;
 .hero {
   position: relative;
   width: 100vw;
-  height: 72vh;
+  height: 60vh;
   overflow: hidden;
-  min-height: 480px;
-  max-height: 800px;
+  min-height: 420px;
+  max-height: 700px;
 }
 
 .hero-video {
