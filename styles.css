@@ -169,7 +169,12 @@ li{
 .quote{
   font-family: "Spectral", serif;
 }
-
+.quote-author{
+  font-family:sans-serif;
+  font-size:0.95rem;
+  letter-spacing:0.04em;
+  opacity:0.82;
+}
 
 /* banner */
 
