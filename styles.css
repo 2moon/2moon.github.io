@@ -256,6 +256,17 @@ display:block;
 margin-bottom:10px;
 }
 
+.hero{
+  height: 58svh;
+  min-height: 420px;
+  max-height: 620px;
+}
+
+.hero-overlay{
+  justify-content: flex-start;
+  padding-top: 18svh;
+}
+
 }
 
 @media (max-width:600px){
