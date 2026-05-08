@@ -257,14 +257,16 @@ margin-bottom:10px;
 }
 
 .hero{
-  height: 72svh;
-  min-height: 560px;
+  height:72svh;
+  min-height:520px;
 }
 
 .hero-overlay{
   justify-content:center;
   padding-top:0;
   padding-bottom:8vh;
+  padding-left:7%;
+  padding-right:7%;
 }
 
 .hero::after{
@@ -279,7 +281,7 @@ margin-bottom:10px;
 
   background:rgba(255,255,255,0.72);
 
-  animation:scrollCue 2s ease-in-out infinite;
+  animation:scrollCue 2.4s ease-in-out infinite;
 
   z-index:3;
 }
@@ -287,25 +289,21 @@ margin-bottom:10px;
 @keyframes scrollCue{
   0%{
     opacity:0;
-    transform:translateX(-50%) translateY(-6px);
+    transform:translateX(-50%) translateY(-4px);
   }
 
-  40%{
+  30%{
+    opacity:1;
+  }
+
+  70%{
     opacity:1;
   }
 
   100%{
     opacity:0;
-    transform:translateX(-50%) translateY(6px);
+    transform:translateX(-50%) translateY(8px);
   }
 }
 
-}
-
-@media (max-width:600px){
-.lang-nav{
-right:20px;
-top:15px;
-font-size:12px;
-}
 }
