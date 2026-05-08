@@ -257,14 +257,14 @@ margin-bottom:10px;
 }
 
 .hero{
-  height: 58svh;
-  min-height: 420px;
-  max-height: 620px;
+  height: 72svh;
+  min-height: 560px;
 }
 
 .hero-overlay{
-  justify-content: flex-start;
-  padding-top: 22svh;
+  justify-content:center;
+  padding-top:0;
+  padding-bottom:8vh;
 }
 
 }
