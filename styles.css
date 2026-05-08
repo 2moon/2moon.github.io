@@ -267,6 +267,39 @@ margin-bottom:10px;
   padding-bottom:8vh;
 }
 
+.hero::after{
+  content:"";
+  position:absolute;
+  bottom:22px;
+  left:50%;
+  transform:translateX(-50%);
+
+  width:1px;
+  height:38px;
+
+  background:rgba(255,255,255,0.72);
+
+  animation:scrollCue 2s ease-in-out infinite;
+
+  z-index:3;
+}
+
+@keyframes scrollCue{
+  0%{
+    opacity:0;
+    transform:translateX(-50%) translateY(-6px);
+  }
+
+  40%{
+    opacity:1;
+  }
+
+  100%{
+    opacity:0;
+    transform:translateX(-50%) translateY(6px);
+  }
+}
+
 }
 
 @media (max-width:600px){
